@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.heading{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+};
+
+.bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skills-container {
+width: 100%; /* Full width */
+background-color: #ddd; /* Grey background */
+}
+
+.skills {
+text-align: right; /* Right-align text */
+padding-top: 10px; /* Add top padding */
+padding-bottom: 10px; /* Add bottom padding */
+color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: blue;} /* Green */
+.css {width: 80%; background-color: rgb(145, 243, 33);} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color:blue;}
+
+
+.fa {
+    padding: 20px;
+    font-size: 70px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
